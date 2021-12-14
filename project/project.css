@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+.l{
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.text1{
+  font-family: Garamond;
+}
+#firsttext{
+  text-align: left;
+  border-radius: 25px;
+  background: #E3F6D3;
+  padding: 20px; 
+  /*width: 100%;
+  height: 300px;*/  
+}
+#secondtext{
+  text-align: left;
+  border-radius: 25px;
+  background: #E3F6D3;
+  padding: 20px; 
+}
+.text2{
+  font-family: Garamond;
+}
+h2{
+  font-family: verdana;
+  text-align: center;
+}
+#img{
+  float: right;
+  border: 3px outset #E3F6D3;
+}
+#image{
+  float: left;
+  border: 3px inset #E3F6D3;
+}
+#kainjidam{
+  text-align: left;
+  border-radius: 5px;
+  background: #E3F6D3;
+  padding: 8px;
+  float: left;
+  width: 60%;
+  /*height: 300px;*/
+}
+#zumarock{
+ text-align: left;
+  border-radius: 1px;
+  background: #E3F6D3;
+  padding: 8px;
+  float: right;
+  width: 60%;
+  /*height: 300px;*/
+}
+#barbeach{
+  text-align: left;
+  border-radius:  5px;
+  background: #E3F6D3;
+  padding: 8px;
+  float: left;
+  width: 60%;
+  /*height: 300px;*/
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }

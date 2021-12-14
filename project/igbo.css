@@ -1,0 +1,93 @@
+*{
+ font-family: Garamond;
+
+}
+.text{
+  font-family: verderna;
+}
+h3{
+  font-family: Garamond;
+  text-align: center;
+}
+#img{
+  float: right;
+  border: 3px solid darkgoldenrod;
+}
+.img{
+  border: 3px solid darkgoldenrod;
+}
+.l{
+  color: white;
+}
+.brown{
+  color: darkgoldenrod;
+  font-family: Garamond;
+  text-align: center;
+}
+#igbo{
+  text-align: left;
+  border-radius: 5px;
+  background: lightgoldenrodyellow;
+  padding: 8px;
+  float: left;
+  width: 45%;
+  /*height: 300px;*/
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column .img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.igboculture1{
+  text-align: left;
+  border-radius: 5px;
+  background: lightgoldenrodyellow;
+  padding: 8px;
+  float: right;
+  width: 85%;
+  /*height: 300px;*/
+}
+.igboculture2{
+  text-align: left;
+  border-radius: 5px;
+  background: lightgoldenrodyellow;
+  padding: 8px;
+  float: left;
+  width: 85%;
+  /*height: 300px;*/
+}
