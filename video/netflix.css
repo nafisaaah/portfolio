@@ -1,0 +1,14 @@
+img{
+	background-image:url("netflix.jpeg");
+	background-size: cover;
+}
+body{
+	background-color: black;
+}
+img:hover{
+	float: left;
+}
+h1{
+	text-align: center;
+	color: white;
+}
